@@ -1,0 +1,6 @@
+﻿  TestFramework.cpp
+D:\CODE\C++\ProjectRPG\ProjectRPG\TestFramework.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+  game.cpp
+  stageManager.cpp
+  Generating Code...
+  ProjectRPG.vcxproj -> D:\CODE\C++\ProjectRPG\Debug\ProjectRPG.exe

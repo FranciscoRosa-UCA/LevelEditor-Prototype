@@ -1,0 +1,73 @@
+#include <allegro5/allegro5.h>
+#include <ctime>
+#include <cstdlib>
+#include "game.h"
+#include "actor.h"
+#include "actormanager.h"
+
+class AirCraft : public Actor
+{
+public:
+	AirCraft();
+	void draw(ALLEGRO_BITMAP* bmp);
+	void update();
+	void set_image(ALLEGRO_BITMAP* bmp);
+
+protected:
+	ALLEGRO_BITMAP* image;
+
+};
+
+AirCraft::AirCraft()
+{
+	image = NULL;
+}
+void AirCraft::draw(ALLEGRO_BITMAP* image)
+{
+	al_draw_bitmap(image, x, y, 0);
+}
+void AirCraft::update()
+{
+
+}
+void AirCraft::set_image(ALLEGRO_BITMAP* bmp)
+{
+	image = bmp;
+}
+
+class TestFrameWork : public Game
+{
+public:
+	void main();
+};
+
+void TestFrameWork::main()
+{
+	ALLEGRO_BITMAP* bmp;
+
+	AirCraft* a = new AirCraft;
+
+	bmp = al_load_bitmap("assets/players/nave.png");
+
+	a->set_image(bmp);
+	a->set_x(1080/ 2);
+	a->set_y(720 / 2);
+	actor_manager->add(a);
+
+	while (true) update();
+
+	al_save_bitmap("assets/players/nave.png", bmp);
+
+	al_destroy_bitmap(bmp);
+}
+
+
+
+
+int main()
+{
+	TestFrameWork game;
+	srand(time(NULL));
+	game.set_name("Test del Marco de Trabajo");
+	game.init(640, 480, 16);
+}

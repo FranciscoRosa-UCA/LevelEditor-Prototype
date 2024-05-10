@@ -1,0 +1,47 @@
+﻿  actor.cpp
+  actorManager.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\actorManager.cpp(109,20): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  basicBlock.cpp
+  buttonClass.cpp
+  cameraClass.cpp
+  ColliderClass.cpp
+  colliderManager.cpp
+  controlManager.cpp
+  dirtTileClass.cpp
+  game.cpp
+  gameEditorClass.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\mapClass.h(36,42): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "gameEditorClass.cpp")
+  
+  grassTileClass.cpp
+  keyboardClass.cpp
+  main.cpp
+  mapClass.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\mapClass.h(36,42): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "mapClass.cpp")
+  
+  menuClass.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\mapClass.h(36,42): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "menuClass.cpp")
+  
+  NetworkClient.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\NetworkClient.cpp(56,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  NetworkServer.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\NetworkServer.cpp(93,73): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  objectsClass.cpp
+  panelEditorClass.cpp
+  Generando código...
+  Compilando...
+  player.cpp
+  stageManager.cpp
+  staticButtonClass.cpp
+  swordClass.cpp
+  TestFramework.cpp
+D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\ProjectRPG\mapClass.h(36,42): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "TestFramework.cpp")
+  
+  tilesClass.cpp
+  WRdataClass.cpp
+  Generando código...
+  LINK : no se encontró D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\x64\Debug\ProjectRPG.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+  ProjectRPG.vcxproj -> D:\Mi PC\CODE\Proyectos\LevelEditor-Prototype\x64\Debug\ProjectRPG.exe
